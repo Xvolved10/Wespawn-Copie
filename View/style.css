@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "PPNeueMachina";
+  src: url("./assets/fonts/PPNeueMachina-PlainUltrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "RNSSANZ";
+  src: url("./assets/fonts/RNSSanz-Normal.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.div-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar img {
+  width: 38px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* body */
+body {
+  background-color: #070707;
+  color: white;
+}
+
+.img-main {
+  position: relative;
+  background-image: url(./assets/img/gamer1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40vh;
+  display: flex;
+  margin-left: 20px;
+}
+.img-wespawn {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+}
+.text {
+  margin-left: 32px;
+
+}
+.title1 {
+  margin-bottom: 8px;
+}
+.title1,
+.title2,
+.title3,
+.title4 {
+  font-family: "PPNeueMachina";
+  text-transform: uppercase;
+  margin-left: 12px;
+}
+
+.main-text,
+.main-text2 {
+  margin-left: 12px;
+}
+
+.main-text {
+  font-family: "RNSSANZ";
+  margin-bottom: 34px;
+}
+
+.btn-yellow1 {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 8.108px;
+  border-radius: 5.049px;
+  background: #eafe52;
+  color: #16181d;
+  font-family: "RNSSanz";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-bottom: 106px;
+  margin-left: 12px;
+}
+
+.title2 {
+  margin-bottom: 16px;
+}
+
+.main-text2 {
+  font-family: "RNSSANZ";
+}
+
+.img-main2 {
+  position: relative;
+  background-image: url(./assets/img/gamer2.png);
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  height: 53vh;
+
+}
+
+.title3 {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+}
+
+.chrono {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10px;
+  gap: 16px;
+  margin-left: 32px;
+}
+
+.chrono1 {
+  width: 69px;
+  height: 75px;
+  border: 2px solid #eafe52;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px;
+}
+
+.number-chrono{
+  font-weight: 900;
+}
+
+.title4 {
+  margin-bottom: 24px;
+}
+
+.container-newsletter {
+  padding: 20px;
+}
+
+.email {
+  font-family: "RNSSANZ";
+  width: 230px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #242629;
+  opacity: 0.3;
+  color: #fff;
+  padding: 16px;
+  margin-left: 12px;
+}
+
+.btn-envoyer {
+  font-family: "RNSSANZ";
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 8.108px;
+  border-radius: 6px;
+  background: #eafe52;
+  border: none;
+  color: #16181d;
+  margin-left: 8px;
+}
+
+.img-background {
+  /* width: 100%; */
+  height: 434.4px;
+  color: #fffaf4;
+  opacity: 0.2;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer-font {
+  position: absolute;
+  background-image: url(./assets/img/background-w.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vw;
+  opacity: 10%;
+}
+.containt-footer {
+  margin-left: 32px;
+}
+
+.direction-info-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-bottom: 32px;
+}
+
+.direction-info-footer p {
+  font-family: "RNSSANZ";
+}
+
+.footer-line {
+  width: 326px;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.network-footer {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 32px;
+}
+
+.network-footer img {
+  width: 25px;
+  height: 25px;
+}
+.img-footer {
+  width: 188px;
+  height: 60px;
+}
+
+.Copyright {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
